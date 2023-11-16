@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(to bottom,#4a4969,#7072ab,#cd82a0);
+    height: 100vh;
+    margin: 0;
+}
+#backgroundimage{
+    position: fixed;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+}
+#bg-image{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+
+#weather-div{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+}
+#weather{
+    position: relative;
+    border-radius: 20px;
+    width: 30%;
+    height: 5vh;
+    background: transparent;
+    left: 30vw;
+    color: white;
+}
+#button{
+    position: relative;
+    background: rgb(1, 214, 1);
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid black;
+    left: 30vw;
+}
+
